@@ -1,104 +1,94 @@
 body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#f5f5f5;
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
 }
 
 header{
-    background:#5a3e2b;
-    color:white;
-    text-align:center;
-    padding:20px;
+background:#5a3e2b;
+color:white;
+text-align:center;
+padding:20px;
 }
 
 .logo{
-    font-size:32px;
-    font-weight:bold;
+font-size:30px;
+font-weight:bold;
 }
 
 nav{
-    background:#3e2a1f;
-    padding:12px;
-    text-align:center;
+background:#3e2a1f;
+text-align:center;
+padding:12px;
 }
 
 nav a{
-    color:white;
-    margin:15px;
-    text-decoration:none;
-    font-weight:bold;
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
 }
 
 nav a:hover{
-    color:#d4a373;
+color:#d4a373;
 }
 
 section{
-    padding:40px;
-    text-align:center;
+padding:40px;
+text-align:center;
 }
 
 .hero{
-    width:90%;
-    border-radius:12px;
+width:90%;
+border-radius:12px;
 }
 
 .contenedor{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:25px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
 }
 
 .tarjeta{
-    background:white;
-    width:260px;
-    border-radius:12px;
-    padding:15px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+background:white;
+width:250px;
+padding:15px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 .tarjeta img{
-    width:100%;
-    border-radius:10px;
-}
-
-button{
-    background:#5a3e2b;
-    color:white;
-    border:none;
-    padding:10px;
-    border-radius:6px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#d4a373;
+width:100%;
+border-radius:10px;
 }
 
 form{
-    max-width:400px;
-    margin:auto;
-    text-align:left;
+max-width:400px;
+margin:auto;
+text-align:left;
 }
 
 input, textarea{
-    width:100%;
-    padding:8px;
-    margin-bottom:12px;
-    border-radius:6px;
-    border:1px solid #ccc;
+width:100%;
+padding:8px;
+margin-bottom:12px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+background:#5a3e2b;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
 }
 
 footer{
-    background:#3e2a1f;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:40px;
+background:#3e2a1f;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
 }
-<footer>
-<p>Mueblería Karpe Diem</p>
-<p>San Luis Potosí, México</p>
-<p>Contacto: karpediem@email.com</p>
-</footer>
